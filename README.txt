@@ -1,0 +1,2 @@
+This code was created as part of training that I delivered.
+This web application demonstrates use of Azure Cognitive API. This implementation leverages Azure function app, CosmosDB, BlobStorage, ServiceBus,Api management and cognitive API. 
