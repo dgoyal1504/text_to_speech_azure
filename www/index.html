@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles_az.css">
+
+  </head>
+  <body>
+    <!-- <div id="logo" height=200px;><img src="kaumodaki.png"> </div> -->
+    <div id="content">
+
+      Voice:
+
+      <select id="voiceSelected">
+        <option value="en-US-Guy24kRUS">Guy-M-[English]</option>
+        <option value="en-US-AriaRUS">Aria-F-[English]</option>
+        <option value="es-ES-Laura-Apollo">Laura-F-[Spanish]</option>
+        <option value="es-ES-Pablo-Apollo">Pablo-M-[Spanish]</option>
+        <option value="hi-IN-Kalpana">Kalpana-F-[Hindi]</option>
+        <option value="hi-IN-Hemant">Hemant-M-[Hindi]</option>
+        <option value="fr-FR-Julie-Apollo">Julie-F-[Fench]</option>
+        <option value="fr-FR-HortenseRUS">Hortense-F-[French]</option>
+        <option value="es-MX-HildaRUS">Hilda-F-[Spanish]</option>
+        <option value="es-MX-Raul-Apollo">Raul-M-[Spanish]</option>
+        <option value="en-IN-Heera-Apollo">Heera-F-[English]</option>
+        <option value="en-IN-Ravi-Apollo">Ravi-M-[English]</option>
+        <option value="en-US-ZiraRUS">Zira-F-[English]</option>
+        <option value="en-US-BenjaminRUS">Benjamin-M-[US]</option>
+        <option value="es-ES-HelenaRUS">Helena-F-[Spanish]</option>
+      </select>
+
+      <input type="submit" value="Say it!" id="sayButton" class="buttons">
+
+      <span id="postIDreturned"></span> 
+    </br></br>
+
+    <textarea id ="postText"></textarea>
+    <span id="charCounter">Characters: 0</span>
+
+    </br></br></br></br>
+      Provide post ID which you want to retrieve: <input type="text" id="postId"> <input type="submit" class="buttons" value="Search" id="searchButton">
+      <br/>
+    </div>
+
+
+
+      <table id="posts">
+        <colgroup>
+          <col style="width:10%">
+          <col style="width:7%">
+          <col style="width:45%">
+          <col style="width:8%">
+          <col style="width:30%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Post ID</th>
+            <th>Voice</th>
+            <th>Post</th>
+            <th>Status</th>
+            <th>Player</th>
+          </tr>
+        </tbody>
+      </table>
+
+
+    <script src="scripts_az.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+  </body>
+</html>

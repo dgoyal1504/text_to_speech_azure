@@ -1,0 +1,11 @@
+﻿{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "posts",
+      "connection": "tts-servicebus_RootManageSharedAccessKey_SERVICEBUS"
+    }
+  ]
+}
